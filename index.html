@@ -7,7 +7,8 @@
   <meta name="description" content="AUREUS is a premium metronome and practice app by MinnyMedia, with flexible rhythms, a chromatic tuner, tone and drone tools, and practice tracking.">
   <title>AUREUS — Metronome &amp; Practice</title>
   <link rel="icon" href="assets/aureus-coin.png" type="image/png">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=20261102-art">
+  <script src="feature-gallery.js?v=20261102-art" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -35,11 +36,10 @@
           <span class="release-note">Available on Google Play</span>
         </div>
       </div>
-      <div class="hero-art" aria-hidden="true">
-        <div class="orbit orbit-one"></div>
-        <div class="orbit orbit-two"></div>
-        <img src="assets/aureus-coin.png" width="200" height="194" alt="">
-      </div>
+      <figure class="feature-art hero-feature">
+        <a href="assets/feature-metronome.webp" data-feature-preview aria-label="Enlarge metronome, rhythm and drone feature graphic"><img src="assets/feature-metronome.webp" width="1920" height="1080" fetchpriority="high" alt="AUREUS metronome at 120 BPM, with time signature, subdivision, accent pattern and drone previews"><span class="enlarge-label">View larger <span aria-hidden="true">↗</span></span></a>
+        <figcaption>Find your pulse. Shape your rhythm. Stay in tune.</figcaption>
+      </figure>
     </section>
 
     <section class="section section-features" id="features" aria-labelledby="features-title">
@@ -54,6 +54,18 @@
           <article class="feature"><span class="feature-mark" aria-hidden="true">04</span><h3>Practice flow</h3><p>Save presets, use a session timer, and review practice statistics.</p></article>
         </div>
       </div>
+    </section>
+
+    <section class="section feature-stories wrap" aria-labelledby="practice-tools-title">
+      <div class="feature-story">
+        <div class="story-copy"><p class="eyebrow">BUILD YOUR PRACTICE</p><h2 id="practice-tools-title">Find your pitch.<br>Build your pace.</h2><p>Tune with the chromatic tuner, explore reference tones, and work towards a target tempo with tempo ramps. Disappearing clicks give your internal timing room to grow.</p></div>
+        <figure class="feature-art"><a href="assets/feature-practice-tools.webp" data-feature-preview aria-label="Enlarge tuner, tempo ramp and tone feature graphic"><img src="assets/feature-practice-tools.webp" width="1920" height="1080" loading="lazy" alt="AUREUS chromatic tuner, tempo ramp and disappearing click settings, alongside the tone generator"><span class="enlarge-label">View larger <span aria-hidden="true">↗</span></span></a><figcaption>Pitch tools and rhythm challenges, together in one practice space.</figcaption></figure>
+      </div>
+      <div class="feature-story orientation-story">
+        <div class="story-copy"><p class="eyebrow">YOUR RHYTHM. YOUR ORIENTATION.</p><h2>Practise your way.<br>Turn it your way.</h2><p>Choose portrait or landscape to suit your setup. The same gold metronome and clear tempo controls, with room to settle into your session.</p></div>
+        <figure class="feature-art"><a href="assets/feature-orientations.webp" data-feature-preview aria-label="Enlarge portrait and landscape feature graphic"><img src="assets/feature-orientations.webp" width="1920" height="1080" loading="lazy" alt="AUREUS metronome shown in portrait and landscape orientations, with tempo and tap tempo controls"><span class="enlarge-label">View larger <span aria-hidden="true">↗</span></span></a><figcaption>Portrait or landscape. Your practice, your view.</figcaption></figure>
+      </div>
+      <p class="feature-note">Promotional compositions made from AUREUS app screenshots. Select a graphic to explore it at full size.</p>
     </section>
 
     <section class="section section-screens" id="screenshots" aria-labelledby="screenshots-title">
@@ -94,5 +106,6 @@
     <a href="privacy-policy.html">Privacy policy</a>
     <a href="mailto:ruanminny88@gmail.com?subject=AUREUS%20support">ruanminny88@gmail.com</a>
   </footer>
+  <dialog class="feature-viewer" aria-labelledby="feature-caption"><div class="viewer-toolbar"><p id="feature-caption"></p><button type="button" aria-label="Close feature graphic">Close <span aria-hidden="true">×</span></button></div><img id="feature-image" alt=""></dialog>
 </body>
 </html>
